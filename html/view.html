@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/javascript.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!--<link rel="stylesheet" type="text/css" href="../style/style.css"/>-->
+    <style type="text/css">
+        @import url(../style/viewstyle.css);
+    </style>
+
+    <script>
+        var mypic=new Array("../image/snapback.jpg","../image/2013ERA01930.jpg","../image/1314ERA02365.jpg");
+        var i=0;
+        function btnprevious(){
+            i--;
+            if(i<0) i=2;
+            document.getElementById("myimage").src=mypic[i];
+        }
+        function btnnext(){
+            i++;
+            if(i>9)i=0;
+            document.getElementById("myimage").src=mypic[i];
+        }
+    </script>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Shopping</h1>
+    </div>
+    <div class="aside-left">
+
+    </div>
+    <div class="section">
+        <div class="section1">
+            <img class="img-detail" id="myimage" src="../image/snapback.jpg"/>
+        </div>
+        <div class="section2">
+
+        </div>
+        <a href="#" onclick="btnprevious()">First</a>
+        <a href="#">1</a>
+        <a href="#" onclick="btnnext()">2</a>
+        <a href="#" onclick="btnnext()">3</a>
+        <a href="#" onclick="btnnext()">Next</a>
+    </div>
+    <div class="aside-right">
+        <div class="aside-right1">
+            <img class="img-aside" src="../image/hot-stylish-fashion-girl-women-usa-flag-t.jpg"/>
+        </div>
+        <div class="aside-right2">
+            <img class="img-aside" src="../image/2013ERA01930.jpg"/>
+        </div>
+        <div class="aside-right3">
+            <img class="img-aside" src="../image/sdp-tshirt.JPG"/>
+        </div>
+        <div class="aside-right4">
+            <img class="img-aside" src="../image/2ne1shirts.jpg"/>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+    <div id="container">
+
+    </div>
+</body>
+</html>
