@@ -1,0 +1,7 @@
+body{margin:0px;}
+#container{width:980px;height:1200px;margin:0px auto; background-color:bisque;}
+#header{width:980px;height:150px;margin:0px;padding:0px;background-color:darkseagreen;}
+#hleft{width:500px;height:150px;margin:0px;padding:0px;float:left;background-color:aquamarine;}
+#hright{width:300px;height:150px;margin:0px;padding:0px;float:right;background-color:darkkhaki;}
+#content{width:980px;height:900px;margin:0px;padding:0px;clear:both;background-color:darkslateblue;}
+#aside{width:300px;height:900px;margin:0px;padding:0px;float:left;background-color:coral;}
