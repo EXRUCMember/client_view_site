@@ -11,61 +11,85 @@
         @import url(../style/viewstyle.css);
     </style>
 
-    <script>
-        var mypic=new Array("../image/snapback.jpg","../image/2013ERA01930.jpg","../image/1314ERA02365.jpg");
-        var i=0;
-        function btnprevious(){
-            i--;
-            if(i<0) i=2;
-            document.getElementById("myimage").src=mypic[i];
-        }
-        function btnnext(){
-            i++;
-            if(i>9)i=0;
-            document.getElementById("myimage").src=mypic[i];
-        }
-    </script>
+    <!--<script>-->
+        <!--var mypic=new Array("../image/snapback.jpg","../image/2013ERA01930.jpg","../image/1314ERA02365.jpg");-->
+        <!--var i=0;-->
+        <!--function btnprevious(){-->
+            <!--i--;-->
+            <!--if(i<0) i=2;-->
+            <!--document.getElementById("myimage").src=mypic[i];-->
+        <!--}-->
+        <!--function btnnext(){-->
+            <!--i++;-->
+            <!--if(i>9)i=0;-->
+            <!--document.getElementById("myimage").src=mypic[i];-->
+        <!--}-->
+    <!--</script>-->
 
 </head>
 <body>
-    <div class="header">
-        <h1>Shopping</h1>
-    </div>
-    <div class="aside-left">
 
+    <div class="header">
+        <img class="img-header" src="../image/banner.png"/>
     </div>
+
+    <div class="aside-left">
+        <!--<div>-->
+            <!--<a href="#">Lady Skirts</a>-->
+        <!--</div>-->
+    </div>
+
     <div class="section">
-        <div class="section1">
-            <img class="img-detail" id="myimage" src="../image/snapback.jpg"/>
+        <div class="section1" align="center">
+            <img class="img-detail" id="myimage" src="../image/2h5jkol.jpg"/>
         </div>
         <div class="section2">
+            <div class="subsection">
+                <!--<table>-->
+                    <!--<tr>-->
+                        <!--<td><label><h3>Name: </h3></label></td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td><label><h3>Code: </h3></label></td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td><label><h3>Price: </h3></label></td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td><label><h3>Description:</h3><p>DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription</p></label></td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+                <label><h3>Name: </h3></label>
+                <label><h3>Code: </h3></label>
+                <label><h3>Price: </h3></label>
+                <label><h3>Description: </h3><p>Description</p></label>
+            </div>
+        </div>
+        <!--<a href="#" onclick="btnprevious()">First</a>-->
+        <!--<a href="#">1</a>-->
+        <!--<a href="#" onclick="btnnext()">2</a>-->
+        <!--<a href="#" onclick="btnnext()">3</a>-->
+        <!--<a href="#" onclick="btnnext()">Next</a>-->
+    </div>
 
-        </div>
-        <a href="#" onclick="btnprevious()">First</a>
-        <a href="#">1</a>
-        <a href="#" onclick="btnnext()">2</a>
-        <a href="#" onclick="btnnext()">3</a>
-        <a href="#" onclick="btnnext()">Next</a>
-    </div>
     <div class="aside-right">
-        <div class="aside-right1">
-            <img class="img-aside" src="../image/hot-stylish-fashion-girl-women-usa-flag-t.jpg"/>
-        </div>
-        <div class="aside-right2">
-            <img class="img-aside" src="../image/2013ERA01930.jpg"/>
-        </div>
-        <div class="aside-right3">
-            <img class="img-aside" src="../image/sdp-tshirt.JPG"/>
-        </div>
-        <div class="aside-right4">
-            <img class="img-aside" src="../image/2ne1shirts.jpg"/>
-        </div>
+        <!--<div class="aside-right1">-->
+            <!--<img class="img-aside" src="../image/hot-stylish-fashion-girl-women-usa-flag-t.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="aside-right2">-->
+            <!--<img class="img-aside" src="../image/2013ERA01930.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="aside-right3">-->
+            <!--<img class="img-aside" src="../image/sdp-tshirt.JPG"/>-->
+        <!--</div>-->
+        <!--<div class="aside-right4">-->
+            <!--<img class="img-aside" src="../image/2ne1shirts.jpg"/>-->
+        <!--</div>-->
     </div>
+
     <div class="footer">
 
     </div>
-    <div id="container">
 
-    </div>
 </body>
 </html>
